@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skontaktuj się z nami za pomocą naszego formularza kontaktowego.">
+    <meta name="keywords" content="kontakt, formularz, email, wsparcie">
+    <meta name="author" content="Your Name">
+    <title>Formularz Kontaktowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="shape shape1"></div>
+    <div class="shape shape2"></div>
+    <div class="shape shape3"></div>
+    <header>
+        <h1>Skontaktuj się z nami</h1>
+    </header>
+
+    <main>
+        <form id="contactForm">
+            <div class="input-container">
+                <input type="text" id="f_imie" name="f_imie" maxlength="63" required>
+                <label for="f_imie" class="placeholder">Imię:</label>
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="f_nazwisko" name="f_nazwisko" maxlength="83" required>
+                <label for="f_nazwisko" class="placeholder">Nazwisko:</label>
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="f_email" name="f_email" required>
+                <label for="f_email" class="placeholder">Email:</label>
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="f_temat" name="f_temat" maxlength="50" required>
+                <label for="f_temat" class="placeholder">Temat Zapytania:</label>
+            </div>
+
+            <div class="input-container">
+                <textarea name="f_tresc" id="f_tresc" maxlength="1000" required></textarea>
+                <label for="f_tresc" class="placeholder textarea">Treść Wiadomości:</label>
+            </div>
+
+            <button type="submit">Wyślij Wiadomość</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 School Company. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
